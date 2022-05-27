@@ -1,1 +1,18 @@
 --- this file is for manage rest api ---
+
+-- admin sign up --
+path = adminapi/signup/
+{
+    "username" : "mori",
+    "password" : "1234",
+    "name" : "mori big bang",
+    "phone"    : "09909069085"
+}
+
+-- admin login --
+# employes can login with this api
+path = adminapi/login/
+{
+    "username" : "mori",
+    "password" : "1234"
+}
